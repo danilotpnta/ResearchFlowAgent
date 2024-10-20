@@ -1,0 +1,14 @@
+
+name: researchflow
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - streamlit
+  - jupyter
+  - pip
+  - pip:
+    - connectedpapers-py
+    - dspy
+    - openai
+    - pydantic
